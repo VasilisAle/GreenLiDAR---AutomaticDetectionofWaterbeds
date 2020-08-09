@@ -1,0 +1,8 @@
+{
+"dataname": "NL3_polygon_378_5m_buffer_sorted_pointformat3_-4.5to-3.3_bottom",
+"author": "Vasileios Alexandridis",
+"vx": 2,
+"vy": 2,
+"output_name": "_classified",
+"raster_output": "_bands.tif"
+}
