@@ -35,18 +35,23 @@ The repository is structured as follows:
 - **/code**: the Julia scripts that contain the voxel and pulse-based implementations and some plots (eg. histograms)
 
 ## Usage
-
-- Pulse-based method:
-- Voxel-based method:
+- Pulse-based method:  ``` greenstowa_pulse_approach.jl ```
+- Voxel-based method:  ``` greenstowa_voxelization.jl ```
 
 ## Parameters
-The ``` voxelization.json ``` and ``` pulse.json ``` files contain the parameters that can be set by the user for both implemenentations. The options for the ``` voxelization.json ``` each are the following:
+The ``` voxelization.json ``` and ``` pulse.json ``` files contain the parameters that can be set by the user for both implemenentations. 
+The options for the ``` voxelization.json ``` each are the following:
 
 - ``` dataname ```: the name of the LAS file
 - ``` vx ```: the voxelsize in x dimension
 - ``` vy ```: the voxelsize in y dimension
 - ``` output_name ```: the name of the classified point cloud
 - ``` raster_output ```: output raster with 5 bands: z_value, density, distance, intensity, confidence value
+
+The options for the ``` pulse.json ``` each are the following:
+
+- ``` dataname ```: the name of the LAS file
+- ``` output_name ```: the name of the classified point cloud
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
