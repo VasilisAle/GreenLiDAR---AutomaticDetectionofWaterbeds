@@ -35,8 +35,8 @@ The repository is structured as follows:
 - **/code**: the Julia scripts that contain the voxel and pulse-based implementations and some plots (eg. histograms)
 
 ## Usage
-- Pulse-based method:  ``` greenstowa_pulse_approach.jl ```
-- Voxel-based method:  ``` greenstowa_voxelization.jl ```
+- Pulse-based method:  ``` pulse_approach.jl ```
+- Voxel-based method:  ``` voxelization.jl ```
 
 ## Parameters
 The ``` voxelization.json ``` and ``` pulse.json ``` files contain the parameters that can be set by the user for both implemenentations. 
