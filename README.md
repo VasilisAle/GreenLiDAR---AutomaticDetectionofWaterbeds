@@ -35,8 +35,8 @@ The repository is structured as follows:
 - **/code**: the Julia scripts that contain the voxel and pulse-based implementations and some plots (eg. histograms)
 
 ## Usage
-- Pulse-based method:  ``` pulse_approach.jl ```
-- Voxel-based method:  ``` voxelization.jl ```
+- Pulse-based method:  ``` pulse_approach.jl ``` is used to categorize the points into laser pulses based on their z value, intensity and return number. Specifically, it reads  the input dataset from the ``` pulse.json ``` file and groups the points into triplets or doubles. Then, it checks if the last point's intensity is bigger than the middle's one in order to mainly identify the bottom points.
+- Voxel-based method:  ``` voxelization.jl ``` is used to divide the 3D space into voxels with specific x, y and z dimensions, which are specified into the ``` voxelization.json ``` file. It reads the boundaries of the input dataset and then identifies the points that fall into each voxel. For each voxel a histogram with specific bin size is created and the bottom points are identified. Based on the density, distance and intensity values, the confidence values are computed for each potential bottom point. These confidence values are stored as classification code in the LAS file. 
 
 ## Parameters
 The ``` voxelization.json ``` and ``` pulse.json ``` files contain the parameters that can be set by the user for both implemenentations. 
