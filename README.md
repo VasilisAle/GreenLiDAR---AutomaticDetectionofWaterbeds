@@ -1,5 +1,5 @@
 ## Introduction
-The code in this repository was developed during the graduation project of Vasileios Alexandridis for the MSc Geomatics at TU Delft, the Netherlands (the thesis is available [https://repository.tudelft.nl/islandora/object/uuid%3Aacbd73bf-3547-456b-8f9d-4b72d5b7b54a?collection=education]())
+The code in this repository was developed during the graduation project of Vasileios Alexandridis for the MSc Geomatics at TU Delft, the Netherlands (the thesis is available [here](https://repository.tudelft.nl/islandora/object/uuid%3Aacbd73bf-3547-456b-8f9d-4b72d5b7b54a?collection=education))
 
 Bathymetric Airborne LiDAR technology is used to map the depth of the water bodies. The green light sensor is able to penetrate the water surface and reach the bottom of the interesting water areas. 
 Factors such as the water clarity, the water turbidity (waves) and the vegetation are some of the water conditions that affect the capability of the green laser penetration. 
